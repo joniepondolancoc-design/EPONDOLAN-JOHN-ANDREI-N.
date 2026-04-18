@@ -1,0 +1,78 @@
+/* ===== Global Styles ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #1f2937;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar h5 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.sidebar a {
+    display: block;
+    color: #cbd5e1;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.sidebar a:hover {
+    background: #4b5563;
+    color: white;
+    transform: translateX(5px);
+}
+
+/* ===== Main Dashboard Area ===== */
+.main {
+    margin-left: 220px;
+    padding: 25px;
+    min-height: 100vh;
+    background: #f3f4f6;
+}
+
+.navbar-custom {
+    background: #2563eb;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ===== Dashboard Cards ===== */
+.card-dashboard {
+    border: none;
+    border-radius: 12px;
+    text-decoration: none !important;
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-dashboard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead {
+    background: #2563eb;
+    color: white;
+}
